@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Python cache/compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# IDE files (PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+*.iml
+
+# Checkpoint directories (too large for git, keep them local/linked)
+checkpoints/*
+!checkpoints/README.txt   # keep placeholder
+
+# Logs
+*.log
+wandb/
+runs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Build/dist
+build/
+dist/
+*.egg-info/
