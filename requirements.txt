@@ -1,0 +1,12 @@
+torch>=2.0
+torchaudio>=2.0
+transformers>=4.40
+datasets>=2.19
+soundfile
+librosa
+jiwer
+numpy
+scipy
+tqdm
+pyqt5
+tabulate
